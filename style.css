@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Ubuntu:wght@300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*------------------- navigation bar start ---------------- */
+
+.navbar{
+    background-color:blueviolet;
+    border-radius: 4px;
+    box-shadow:0px 0px 8px black ;
+  }
+  .navbar-toggler{
+      color: cornsilk;
+  }
+  #logo{
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(250, 249, 249);
+    opacity: 1;
+  }
+  #menu-item{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: cornsilk;
+  }
+  /*------------------- navigation bar End ---------------- */
+
+
+  #home{
+      position: relative;
+      /* background:url("/images/background.jpg");
+      background-attachment:fixed;
+      background-size: cover; */
+      background-color: rgb(248, 247, 244);
+      margin-top: 4.9rem;
+      padding: 4rem 1rem;
+  }
+
+  .headings{
+      margin: 1rem 5rem;
+  }
+
+  .namaste,.secondary-namaste{
+    font-size: 2.2rem;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .namaste{
+    color: red;
+    font-weight: 700;
+  }
+  .secondary-namaste,
+  .last-name{
+   color:darkslategrey;
+   font-weight: 700;
+  }
+  .lg-heading{
+    color:red;
+    text-shadow: 1px 1px 4px lightslategray;
+    font-family: 'Audiowide', cursive;
+  }
+  .lg-heading,
+  .last-name{
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .sm-heading{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: darkslategrey;
+  }
+  #hire-btn{
+    position: relative;
+    top: 20px;
+    font-size: 1.2rem;
+    padding: 0.2rem 1rem;
+    font-weight: 700; 
+    color:red;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: 0.2s;
+    border-radius: 5px;
+    border: 2px solid darkslategray;
+  }
+  #hire-btn:hover{
+    box-shadow: 0 0 10px blueviolet;
+    cursor: pointer;
+    border-color: blueviolet;
+  }
+  .profile-img{
+    width: 100%;
+    text-align: center;
+  }
+  #profile{
+    width: 40%;
+    border: 4px solid darkslategray;
+  }
+
+  #about{
+      position: relative;
+      background-color: blueviolet;
+      color: cornsilk;
+      padding: 2rem;
+  }
+.dev-img{
+    width: 50%;
+    margin:2rem 3rem;
+}
+.about-title{
+    color:darkorange;
+}
+  .about-heading{
+      margin: 5rem 3rem;
+      text-align: center;
+      font-size: 1.5rem;
+  }
+
+  /* ---------- Skill section start ---------- */
+
+  #skill-container{
+    background-color: cornsilk;
+    position: relative;
+    padding-bottom: 2rem;
+  }
+  .skill-title{
+    text-align: center;
+    font-weight: 700;
+    color: coral;
+    padding: 2rem 0;
+  }
+.progress-list{
+  width:80%;
+  margin: 2rem auto;
+}
+
+.work-container{
+  background-color: blueviolet;
+  padding: 2rem 5rem;
+}
+.project-title{
+  text-align: center;
+  color: darkorange;
+  padding-bottom: 2rem;
+  font-weight: 700;
+}
+
+.project-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-img{
+  width: 150px;
+  height: 150px;
+  margin: 2rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.project-img:hover{
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.contact-container{
+  background-color: cornsilk;
+  padding: 2rem 4rem;
+  text-align: center;
+}
+.contact-title{
+  color: coral;
+  text-align: center;
+  font-weight: 700;
+}
+.icons{
+  margin: 1.5rem 0;
+  
+}
+.icons a{
+  padding: 1rem 3rem;
+  font-size: 2rem;
+}
+span{
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+@media (max-width:780px){
+  .project-list{
+    flex-direction: column;
+  }
+  .project-title{
+    font-size: 2rem;
+  }
+  .home-container{
+    display: flex;
+  }
+  .headings{
+    text-align: center;
+    margin: 1rem 2rem;
+  }
+  .namaste,.secondary-namaste{
+    font-size: 1.2rem;
+  }
+  .lg-heading,
+  .last-name{
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  #hire-btn{
+    font-size: 1rem;
+    letter-spacing: 0;
+    padding: 0.1rem 0.5rem;
+  }
+  #home .container-2{
+    margin-top: 2rem;
+  }
+  #about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-heading{
+    margin: 3rem 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+span{
+  font-size: 0.8rem;
+  padding: 1rem;
+}
+icons{
+  font-size: 1.5rem;
+  display: flex;
+
+}
+}
