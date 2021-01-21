@@ -22,9 +22,9 @@
     border: 2px solid rgb(250, 249, 249);
     opacity: 1;
   }
-  #menu-item{
+ .nav-link{
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 400;
     color: cornsilk;
   }
   /*------------------- navigation bar End ---------------- */
@@ -232,9 +232,15 @@ span{
   font-size: 0.8rem;
   padding: 1rem;
 }
-icons{
-  font-size: 1.5rem;
-  display: flex;
+.icons a{
+  font-size: 1.2rem;
+  padding: 1rem ;
 
 }
+}
+@media (max-width:285px){
+  span{
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
 }
