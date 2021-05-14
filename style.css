@@ -11,23 +11,23 @@ html {
 /*------------------- navigation bar start ---------------- */
 
 .navbar {
-  /* background-color: blueviolet; */
+   background-color: blueviolet;
   border-radius: 4px;
- /* box-shadow: 0px 0px 8px black; */
+  box-shadow: 0px 0px 8px black; 
 }
 .navbar-toggler {
-  color: red;
+  color: cornsilk;
 }
 #logo {
   width: 50px;
   border-radius: 50%;
-  border: 2px solid red;
+  border: 2px solid cornsilk;
   opacity: 1;
 }
 .nav-link {
   font-size: 1.2rem;
   font-weight: 400;
-  color: red;
+  color: cornsilk;
 }
 /*------------------- navigation bar End ---------------- */
 
