@@ -29,6 +29,9 @@ html {
   font-weight: 400;
   color: cornsilk;
 }
+.fas {
+  margin: 0.5rem;
+}
 /*------------------- navigation bar End ---------------- */
 
 #home {
