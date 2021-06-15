@@ -155,6 +155,9 @@ html {
 
 .project-list {
   display: flex;
+   width: 60%;
+  margin: 0 auto;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
