@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--==================== ANIMATION ON SCROLL ====================-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Ravish Portfolio Website</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="assets/img/logo.png" alt="" id="logo" />
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="uil uil-estate nav__icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i> About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i> Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="uil uil-graduation-cap nav__icon"></i> Education
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-suitcase-alt nav__icon"></i> Projects
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i> Contact Me
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <!-- Theme change -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div
+          class="home__container container grid"
+          data-aos="zoom-in-up"
+          data-aos-duration="1200"
+        >
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/ravish-hmb-2741a9194/"
+                target="_blank"
+                class="home__social-icon"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="home__social-icon"
+                data-aos="fade-down"
+                data-aos-duration="1300"
+              >
+                <i class="uil uil-facebook-f"></i>
+              </a>
+              <a
+                href="https://github.com/ravishhmb"
+                target="_blank"
+                class="home__social-icon"
+                data-aos="fade-down"
+                data-aos-duration="1600"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+            </div>
+
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob-img"
+                    x="18"
+                    y="25"
+                    href="assets/img/logo.png"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="home__data">
+              <h1 class="home__title">Hi, I'am Ravish</h1>
+              <h3 class="home__subtitle">Frontend developer</h3>
+              <p class="home__description">
+                Good experience in web design and development knowledge,
+                producing quality work.
+              </p>
+              <a href="#contact" class="button button-flex">
+                Contact Me<i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button-flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My Introduction</span>
+
+        <div class="about__container container grid">
+          <img
+            src="assets/img/logo2.png"
+            alt=""
+            class="about__img"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          />
+          <div
+            class="about__data"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
+            <p class="about__description">
+              Frontend web developer, Graduated in Bachelor of Computer
+              Applications(BCA) at Davanagere University in the year of 2019.
+            </p>
+
+            <div class="about__buttons">
+              <a
+                download=""
+                href="Ravish's Resume.pdf"
+                class="button button-flex"
+              >
+                Download CV<i class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My Technical level</span>
+
+        <div class="skills__container container grid">
+          <div class="skills__list grid">
+            <div
+              class="skills__data"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              <div class="skills__title">
+                <h3 class="skills__name">HTML</h3>
+                <spam class="skills__number">85%</spam>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__html"></span>
+              </div>
+            </div>
+
+            <div
+              class="skills__data"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              <div class="skills__title">
+                <h3 class="skills__name">CSS</h3>
+                <spam class="skills__number">80%</spam>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__css"></span>
+              </div>
+            </div>
+
+            <div
+              class="skills__data"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              <div class="skills__title">
+                <h3 class="skills__name">JavaScript</h3>
+                <spam class="skills__number">75%</spam>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__javascript"></span>
+              </div>
+            </div>
+
+            <div
+              class="skills__data"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              <div class="skills__title">
+                <h3 class="skills__name">Bootstrap</h3>
+                <spam class="skills__number">75%</spam>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__bootstrap"></span>
+              </div>
+            </div>
+
+            <div
+              class="skills__data"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              <div class="skills__title">
+                <h3 class="skills__name">ReactJS</h3>
+                <spam class="skills__number">72%</spam>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__react"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="education">
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">My personal journey</span>
+
+        <div class="qualification__container container grid">
+          <div class="qualification__sections">
+            <div class="qualification__content">
+              <div
+                class="qualification__data"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+              >
+                <div>
+                  <h3 class="qualification__title">BCA</h3>
+                  <span class="qualification__subtitle">
+                    Davanagere-University
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2017 - 2019
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="qualification__data"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+              >
+                <div>
+                  <h3 class="qualification__title">Diploma in CS</h3>
+                  <span class="qualification__subtitle">
+                    DTE Board,Karnataka
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2013 - 2016
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__round"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Projects</h2>
+        <span class="section__subtitle"> Most recent work </span>
+
+        <div class="portfolio__container container grid swiper-container">
+          <div class="swiper-wrapper">
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/weather.jpg" class="portfolio__img" alt="" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Weather App</h3>
+                <p class="portfolio__description">
+                  Weather forecast app built using html,css,javascript,react.
+                </p>
+                <a
+                  href="https://ravishhmb.github.io/weather-app/"
+                  class="button button-flex button-small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/todolist.png"
+                class="portfolio__img"
+                alt=""
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Todo List</h3>
+                <p class="portfolio__description">
+                  Todo List app used to list the daily tasks built using react.
+                </p>
+                <a
+                  href="https://ravishhmb.github.io/todo-app/"
+                  class="button button-flex button-small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/keeper.jpg" class="portfolio__img" alt="" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Keeper app</h3>
+                <p class="portfolio__description">
+                  Keeper app is an clone of a google keep built using react
+                </p>
+                <a
+                  href="https://ravishhmb.github.io/keeper/"
+                  class="button button-flex button-small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/drumkit.png" class="portfolio__img" alt="" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Drum kit</h3>
+                <p class="portfolio__description">
+                  Drum kit which play various sounds built using
+                  html,css,javascript.
+                </p>
+                <a
+                  href="https://ravishhmb.github.io/drumkit/"
+                  class="button button-flex button-small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/rock-paper-scissor.jpg"
+                class="portfolio__img"
+                alt=""
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Rock-Paper-Scissor</h3>
+                <p class="portfolio__description">
+                  Simple rock-paper-scissor game built using
+                  html,css,javascript,react.
+                </p>
+                <a
+                  href="https://ravishhmb.github.io/rockpaperscissor/"
+                  class="button button-flex button-small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/calculator.png"
+                class="portfolio__img"
+                alt=""
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Calculator</h3>
+                <p class="portfolio__description">
+                  Calculator app which do simple mathematical operation built
+                  using html,css,javascript,react.
+                </p>
+                <a
+                  href="https://ravishhmb.github.io/calculator/"
+                  class="button button-flex button-small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== Project in mind ====================-->
+
+      <section class="project section">
+        <div class="project__bg">
+          <div
+            class="project__container container grid"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
+            <div class="project__data">
+              <h2 class="project__title">You have a new project</h2>
+              <p class="project__description">
+                Contact me now for a creative and responsive new projects
+              </p>
+              <a href="#contact" class="button button-flex button-white"
+                >Contact Me
+                <i class="uil uil-message project__icon button__icon"></i>
+              </a>
+            </div>
+            <img src="assets/img/developer.png" alt="" class="project__img" />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle"> Get in touch </span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div
+              class="contact__information"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              <i class="uil uil-phone-alt contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Call Me</h3>
+                <span class="contact__subtitle">889-220-7337</span>
+              </div>
+            </div>
+
+            <div
+              class="contact__information"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              <i class="uil uil-envelope contact__icon"></i>
+              <div>
+                <h3 class="contact__title">E-mail</h3>
+                <span class="contact__subtitle">ravish010hmb@gmail.com</span>
+              </div>
+            </div>
+
+            <div
+              class="contact__information"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              <i class="uil uil-map-marker contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle">Bengaluru,Karnataka</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div
+          class="footer__container container grid"
+          data-aos="zoom-in-up"
+          data-aos-duration="1000"
+        >
+          <div>
+            <h1 class="footer__title">Ravish</h1>
+            <span class="footer__subtitle"> Frontend developer </span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#about" class="footer__link">About</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-facebook-f"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-instagram"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ravish-hmb-2741a9194/"
+              class="footer__social"
+              target="_blank"
+            >
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+
+    <!--==================== ANIMATION ON SCROLL ====================-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
